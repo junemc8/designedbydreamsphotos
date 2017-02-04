@@ -138,7 +138,33 @@ a#actionbtn:visited {
 	
 }
 
-a#actionbtn:active {
+#pricebtn {
+	background-color: gray;
+	color: white;
+	
+	/*position: absolute;
+	top: 600px;
+	*/
+}
+
+/* mouse over link */
+a#pricenbtn:hover {
+   /* background-color: #8FBC8F;*/
+   background-color: #BC8F8F;
+}
+
+a#pricebtn:link {
+	
+	
+}
+
+a#pricebtn:visited {
+	background-color: #8FBC8F;
+
+	
+}
+
+a#pricebtn:active {
 	
 	
 }
