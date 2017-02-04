@@ -22,7 +22,7 @@ body#main {
 .bss-slides figure{
   position: absolute;
   top: 16px;
-  width: 100%;
+  width: 100%; 
   
 }
 
@@ -74,10 +74,77 @@ img#frame {
 .bss-slides figcaption{
   position: absolute;
   font-family: sans-serif;
-  font-size: .8em;
-  bottom: .75em;
-  right: .35em;
+ /* font-size: .8em; */
+  font-size: 12px;
+  font-weight: bold;
+  /*bottom: .75em;*/
+  
+  top: 498px;
+  left: 50%;
+  margin-right: -50%;
+  
+  transform: translate(-50%, -50%); 
+  
+  /*right: .35em;*/
   padding: .25em;
+  
+ 
+ /* color: #fff;*/
+ color: red;
+  background: #000;
+  background: rgba(0,0,0, .25);
+  border-radius: 2px;
+  opacity: 0;
+  -webkit-transition: opacity 1.2s;
+  transition: opacity 1.2s;
+}
+
+ .bss-slides .left{
+  position: absolute;
+  font-family: sans-serif;
+ /* font-size: .8em; */
+  font-size: 12px;
+  font-weight: bold;
+  /*bottom: .75em;*/
+  
+  top: 498px;
+  left: 275px;
+  margin-right: -50%;
+  
+  transform: translate(-50%, -50%); 
+  
+  /*right: .35em;*/
+  padding: .25em;
+  
+ 
+  /*color: #fff; */
+  color: black;
+  background: #000;
+  background: rgba(0,0,0, .25);
+  border-radius: 2px;
+  opacity: 0;
+  -webkit-transition: opacity 1.2s;
+  transition: opacity 1.2s;
+}
+
+.bss-slides .short{
+  position: absolute;
+  font-family: sans-serif;
+ /* font-size: .8em; */
+  font-size: 12px;
+  font-weight: bold;
+  /*bottom: .75em;*/
+  
+  top: 200px;
+  left: 50%;
+  margin-right: -50%;
+  
+  transform: translate(-50%, -50%); 
+  
+  /*right: .35em;*/
+  padding: .25em;
+  
+ 
   color: #fff;
   background: #000;
   background: rgba(0,0,0, .25);
@@ -86,6 +153,7 @@ img#frame {
   -webkit-transition: opacity 1.2s;
   transition: opacity 1.2s;
 }
+
 .bss-slides .bss-show figcaption{
   z-index: 3;
   opacity: 1;
